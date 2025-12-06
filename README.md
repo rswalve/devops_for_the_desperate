@@ -20,3 +20,16 @@ Here is a quick overview of each directory:
 * _vagrant_: Contains the Vagrantfile for the VM used in the first section of the book.
 
 * _apple-silicon_: Contains the Vagrantfile for the VM used in the first section of the book and minikube instructions.
+
+# Getting Started
+##Move into the Vagrant directory
+
+##Install the Vagrant plug-in for guest additins:
+
+```vagrant plugin install vagrant-vbguest```
+
+## Initialize the Vagrant directory
+```vagrant init```
+
+## Set Parallels as the provider
+```vagrant up --provider=parallels```
